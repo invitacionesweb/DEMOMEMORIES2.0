@@ -373,10 +373,9 @@ main img {
     gap: 60px;
     
 }
-.select2 {
+select .restricciones {
     border-radius: 8px;
 }
-
 input::placeholder,
 textarea::placeholder {
   color: var(--color-principal); /* o cualquier color que quieras */

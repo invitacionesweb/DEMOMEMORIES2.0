@@ -180,28 +180,16 @@
     
      
       <br>
-      <label class="radio-option" >Tenés alguna restricción alimenticia?</label>
-      <div class="asistencia-options">
-      <div class="option-si">
-        <input type="radio" id="asistira-si" name="asistencia" value="Sí" required>
-      <label class="radio-option"  for="asistira-si">Ninguna</label>
-      </div>
-      <div class="option-no">
-        <input type="radio" id="asistira-no" name="asistencia" value="No">
-      <label for="asistira-no">Vegano</label>
-      </div>
-      <div class="option-si">
-        <input type="radio" id="asistira-si" name="asistencia" value="Sí" required>
-      <label class="radio-option"  for="asistira-si">Vegetariano</label>
-      </div>
-      <div class="option-no">
-        <input type="radio" id="asistira-no" name="asistencia" value="No">
-      <label for="asistira-no">Celíaco</label>
-      </div>
-      </div>
 
 
-    <br>
+      <label for="restricciones">¿Tenés alguna restricción alimenticia?</label>
+      <select class="selelct2" id="restricciones" name="restricciones" required>
+        <option value="Ninguna">Ninguna</option>
+        <option value="Vegano">Vegano</option>
+        <option value="Vegetariano">Vegetariano</option>
+        <option value="Celíaco">Celíaco</option>
+      </select>
+      <br> <br>
   
       <button class="boton" type="submit">Enviar</button>
     </form>
