@@ -294,7 +294,7 @@ main img {
     justify-content: center;
     gap: 2px;
     font-size: 1.3rem;
-    padding: 10px 0 10px 0 ;
+    padding: 20px 0 ;
     background-color: var(--color-principal);
   
 
@@ -309,7 +309,9 @@ main img {
     padding: 0px 0 20px 0;
     color: var(--color-secundario);
 }
-
+.information2 P {
+    max-width: 380PX;
+}
 /*FORMULARIO */
 .formulario {
     max-width: 800px;
