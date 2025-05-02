@@ -341,11 +341,11 @@ main img {
     padding: 10px 0 ;
     font-size: 1.1rem;
     margin:0px;
-    color: var(--color-secundario);
-    border: 1px solid var(--color-terciario);
-    border-radius: 8px;
+    color: var(--color-principal);
     font-family: var(--font-principal);
-    background-color: #fff;
+    background-color: var(--color-secundario);
+    border: none;
+    border-bottom: 2px solid var(--color-principal);
   }
 
 
@@ -353,11 +353,10 @@ main img {
     font-family: var(--font-principal);
     font-size: 16px;
     padding: 10px;
-    border: 2px solid var(--color-secundario);
     border-radius: 8px;
-    background-color: white;
-    
-    color: var(--color-secundario);
+    border: 2px solid var(--color-principal);
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
     appearance: none; /* Oculta la flechita nativa */
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -379,7 +378,7 @@ main img {
 
 input::placeholder,
 textarea::placeholder {
-  color: var(--color-secundario); /* o cualquier color que quieras */
+  color: var(--color-principal); /* o cualquier color que quieras */
   font-family: var(--font-secundaria);
   
   opacity: 1; /* para que no se vea desvanecido */

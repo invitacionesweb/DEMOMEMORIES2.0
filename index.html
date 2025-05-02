@@ -160,14 +160,20 @@
     
       <label for="telefono"></label>
       <input placeholder="    Teléfono" type="tel" id="telefono" name="telefono" required>
-    <br>
+      <label for="song"></label>
+      <input placeholder="    Recomendá una canción" type="text" id="telefono" name="cancion" required>
+   
+      <label for="mensaje"></label>
+      <textarea id="mensaje" placeholder="Dejanos un mensaje de amor" name="mensaje"></textarea><br>
+    
+      
       <label for="restricciones">¿Asistiras?</label>
       <select id="restricciones" name="asistencia" required>
         <option value="Ninguna">Si, obvio</option>
         <option value="Vegano">Lamento no poder ir</option>
         <option value="Vegano">Aún no lo decidi</option>       
       </select>
-    
+      <br> <br>
       <label for="restricciones">¿Tenés alguna restricción alimenticia?</label>
       <select id="restricciones" name="restricciones" required>
         <option value="Ninguna">Ninguna</option>
@@ -175,12 +181,8 @@
         <option value="Vegetariano">Vegetariano</option>
         <option value="Celíaco">Celíaco</option>
       </select>
-      <label for="song">¿Que canción no puede faltar?</label>
-      <input placeholder="    Recomendá una canción" type="text" id="cancion" name="cancion" required>
-    
-      <label for="mensaje">Dejale un mensaje a los novios:</label>
-      <textarea id="mensaje" name="mensaje" rows="4"></textarea><br>
-    
+      <br> <br>
+  
       <button class="boton" type="submit">Enviar</button>
     </form>
   </div>
