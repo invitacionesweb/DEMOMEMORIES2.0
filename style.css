@@ -348,12 +348,10 @@ main img {
     border-bottom: 2px solid var(--color-principal);
   }
 
-
   select {
     font-family: var(--font-principal);
     font-size: 16px;
     padding: 10px;
-    border-radius: 8px;
     border: 2px solid var(--color-principal);
     background-color: var(--color-secundario);
     color: var(--color-principal);
@@ -374,6 +372,9 @@ main img {
     justify-content: center;
     gap: 60px;
     
+}
+.select2 {
+    border-radius: 8px;
 }
 
 input::placeholder,

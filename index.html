@@ -152,6 +152,18 @@
     <p  data-aos="fade-up" >No olvides confirmar asistencia antes del 20 de octubre. Por favor, comprende que este es un evento exclusivo para adultos.</p>    
 
     <form class="formulario" name="Contact-form" method="POST">
+      <label class="radio-option" >¿Asistirás?</label>
+      <div class="asistencia-options">
+      <div class="option-si">
+        <input type="radio" id="asistira-si" name="asistencia" value="Sí" required>
+      <label class="radio-option"  for="asistira-si">Sí, obvio.</label>
+      </div>
+      <div class="option-no">
+        <input type="radio" id="asistira-no" name="asistencia" value="No">
+      <label for="asistira-no">No, lo siento.</label>
+      </div>
+      </div>
+    
       <label for="nombre"></label>
       <input placeholder="    Nombre" type="text" id="nombre" name="nombre" required>
     
@@ -166,22 +178,30 @@
       <label for="mensaje"></label>
       <textarea id="mensaje" placeholder="   Dejanos un mensaje de amor" name="mensaje"></textarea><br>
     
-      
-      <label for="restricciones">¿Asistiras?</label>
-      <select id="restricciones" name="asistencia" required>
-        <option value="Ninguna">Si, obvio</option>
-        <option value="Vegano">Lamento no poder ir</option>
-        <option value="Vegano">Aún no lo decidi</option>       
-      </select>
-      <br> <br>
-      <label for="restricciones">¿Tenés alguna restricción alimenticia?</label>
-      <select id="restricciones" name="restricciones" required>
-        <option value="Ninguna">Ninguna</option>
-        <option value="Vegano">Vegano</option>
-        <option value="Vegetariano">Vegetariano</option>
-        <option value="Celíaco">Celíaco</option>
-      </select>
-      <br> <br>
+     
+      <br>
+      <label class="radio-option" >Tenés alguna restricción alimenticia?</label>
+      <div class="asistencia-options">
+      <div class="option-si">
+        <input type="radio" id="asistira-si" name="asistencia" value="Sí" required>
+      <label class="radio-option"  for="asistira-si">Ninguna</label>
+      </div>
+      <div class="option-no">
+        <input type="radio" id="asistira-no" name="asistencia" value="No">
+      <label for="asistira-no">Vegano</label>
+      </div>
+      <div class="option-si">
+        <input type="radio" id="asistira-si" name="asistencia" value="Sí" required>
+      <label class="radio-option"  for="asistira-si">Vegetariano</label>
+      </div>
+      <div class="option-no">
+        <input type="radio" id="asistira-no" name="asistencia" value="No">
+      <label for="asistira-no">Celíaco</label>
+      </div>
+      </div>
+
+
+    <br>
   
       <button class="boton" type="submit">Enviar</button>
     </form>
