@@ -329,9 +329,7 @@ main img {
     font-weight: bold;
     font-family: var(--font-secundaria);
   }
-  input[type="text"],
-  input[type="tel"] {
-  }
+  
   input[type="text"],
   input[type="tel"],
   select,
